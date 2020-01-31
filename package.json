@@ -1,0 +1,28 @@
+{
+  "name": "mysql-nosql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "node_modules/.bin/tsc -w",
+    "build": "node_modules/.bin/tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc index.ts --watch --resolveJsonModule --outDir ./dist",
+    "nodemon": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "^2.15.7",
+    "canvas": "^2.6.0",
+    "discord.js": "^11.5.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "nodemon": "^1.19.4"
+  }
+}
